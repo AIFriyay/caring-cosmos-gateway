@@ -10,13 +10,13 @@ const CallToAction = () => {
           <Brain className="h-12 w-12" />
         </div>
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Transform Education Today
+          Don't Let AI Leave You Behind
         </h2>
         <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-          Join our platform and be part of the educational technology revolution that's shaping the future of learning.
+          The clock is ticking. Small creative agencies have around two years to adapt to AI or risk obsolescence. Start your AI Friyay initiative now and transform your agency's future.
         </p>
         <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
-          Start Learning
+          Start Your AI Friyay
         </Button>
       </div>
     </div>

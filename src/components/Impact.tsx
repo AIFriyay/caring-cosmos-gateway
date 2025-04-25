@@ -1,6 +1,6 @@
 
 import { Card } from "./ui/card";
-import { Users, Laptop, Globe } from "lucide-react";
+import { Users, GraduationCap, Rocket } from "lucide-react";
 
 const ImpactCard = ({ icon: Icon, number, text }: { icon: any, number: string, text: string }) => (
   <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300 border-none bg-gradient-to-br from-white to-gray-50">
@@ -20,18 +20,18 @@ const Impact = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ImpactCard 
             icon={Users}
-            number="50,000+"
-            text="Active Learners"
-          />
-          <ImpactCard 
-            icon={Laptop}
-            number="1,000+"
-            text="Learning Resources"
-          />
-          <ImpactCard 
-            icon={Globe}
             number="100+"
-            text="Partner Institutions"
+            text="Creative Agencies Participating"
+          />
+          <ImpactCard 
+            icon={GraduationCap}
+            number="1,000+"
+            text="Professionals Upskilled"
+          />
+          <ImpactCard 
+            icon={Rocket}
+            number="250+"
+            text="AI Projects Launched"
           />
         </div>
       </div>

@@ -11,8 +11,9 @@ const Mission = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Our Mission</h2>
           <p className="text-lg text-gray-600 max-w-2xl">
-            We're building the future of education through innovative technology solutions. 
-            Our platform empowers learners and educators to achieve more together.
+            AI Friyay empowers creative agencies to embrace AI technology through dedicated Friday afternoon sessions. 
+            We believe that by making AI integration fun, collaborative, and experimental, agencies can innovate and thrive 
+            in an AI-driven future rather than be left behind.
           </p>
         </div>
       </div>
